@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef7f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+  }
+  
+  .status {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #dados-atualizados {
+    color: #e67e22;
+    font-weight: bold;
+  }
+  
+  #status-condicao {
+    font-weight: bold;
+  }
+  
+  .status-normal {
+    color: green;
+  }
+  
+  .status-critico {
+    color: red;
+  }
+  
+  footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+  }
+  

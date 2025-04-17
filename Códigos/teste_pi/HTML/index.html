@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EcoMinds - Monitoramento Ambiental</title>
+  <link rel="stylesheet" href="/Códigos/teste_pi/CSS/style.css" />
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>EcoMinds - Monitoramento Ambiental</h1>
+    <p>Visualização de Dados de Temperatura e Umidade</p>
+  </header>
+
+  <section class="status">
+    <p id="dados-atualizados">
+      Temperatura Atual: <span id="temperatura">--</span> | Umidade Atual: <span id="umidade">--</span>
+    </p>
+    <p>Status: <span id="status-condicao">--</span></p>
+  </section>
+
+  <div id="grafico-temperatura" style="width: 100%; max-width: 800px; margin: auto; padding: 20px;"></div>
+
+  <footer>
+    <p>© EcoMinds 2025</p>
+  </footer>
+
+  <script src="/Códigos/teste_pi/JS/script.js"></script>
+</body>
+</html>
